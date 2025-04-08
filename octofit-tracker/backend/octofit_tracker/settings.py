@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ["*"]
 # Add codespace-specific REST API endpoint suffix
 CODESPACE_NAME = os.getenv("CODESPACE_NAME", "")
 if CODESPACE_NAME:
-    ALLOWED_HOSTS.append(f"{CODESPACE_NAME}-8000.preview.app.github.dev")
+    ALLOWED_HOSTS.append(f"symmetrical-journey-7r7wwxjr49q249w-8000.preview.app.github.dev")
 
 
 # Application definition
